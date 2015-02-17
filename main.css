@@ -12,6 +12,7 @@
 
 body {
 	background-color: #FF9980;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .title p{
@@ -65,7 +66,7 @@ body {
 	float:left;
 	left: 20px;
 	backgro und-color: #FFFFA3;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding: 10px 1px 1px 10px;
 }
 
@@ -84,7 +85,7 @@ body {
 	left: 20px;
 	backgrou nd-color: #FFFFA3;
 	padding: 1px;
-	margin-top: 20px;
+	margin-top: 0px;
 	padding: 10px 1px 1px 10px;
 }
 
@@ -104,13 +105,13 @@ body {
 
 .toolbox {
 		ba ckground-color: #FFFFA3;
-		margin-top: 20px;
+		margin-top: 10px;
 	padding: 20px 1px 1px 10px;
 }
 
 .skills {
 		bac kground-color: #FFFFA3;
-		margin-top: 20px;
+		margin-top: 10px;
 	padding: 20px 1px 1px 10px;
 
 }
