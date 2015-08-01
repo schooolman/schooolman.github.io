@@ -1,4 +1,4 @@
-.resume {
+.resume {/* this can be main */
 	border: 2px solid black;
 	padding: 20px;
 	margin: 20px;
@@ -6,16 +6,24 @@
 	margin-right: auto;
 	margin-left: auto;
 	height: 700px;
-	background-color: white;
-	box-shadow: 5px 5px 3px #800000;
-	font-family: Helvetica, Arial, Sans-serif;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 3px #424242;
+	border-radius: 5px;
 }
 
 body {
-	background-color: #FF9980;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	background-image: url("images/redcorner_upperleft.png"), url("images/yellowcorner_upperright.png"), url("images/bluecorner_lowerright.png"), url("images/greencorner_lowerleft.png");
+	background-position: top left, top right, bottom right, bottom left;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+body h3{
+	font-weight: medium;
 }
 
 .title p{
+	/*could be used as header*/
 	font-size: 18px;
 }
 
@@ -26,6 +34,7 @@ body {
 }
 
 .whoiam {
+	/*could be used as aside*/
 	position: relative;
 	left: 20px;
 	display: inline-block;
@@ -42,6 +51,7 @@ body {
 
 
 .leftside {
+	/*could be used as article*/
 	position: relative;
 	left: 20px;
 	height: 700px;
@@ -66,7 +76,7 @@ body {
 	float:left;
 	left: 20px;
 	margin-top: 10px;
-	padding: 10px 1px 1px 10px;
+	padding: 0px 1px 1px 10px;
 }
 
 .title {
@@ -81,16 +91,14 @@ body {
 .education {
 	display: block;	
 	left: 20px;
-	padding: 1px;
-	margin-top: 0px;
-	padding: 10px 1px 1px 10px;
+	margin-top: 20px;
+	padding: 10px 1px 0px 10px;
 }
 
 
 .worldmap {
 	padding-right: 20px;
-		
-	padding: 1px 1px 20px 10px;
+	padding: 1px 0px 20px 10px;
 
 }
 .selfp {
@@ -100,14 +108,18 @@ body {
 }
 
 .toolbox {
-		margin-top: 10px;
+		margin-top: 20px;
 	padding: 20px 1px 1px 10px;
 }
 
 .skills {
-		margin-top: 10px;
+		margin-top: 20px;
 	padding: 20px 1px 1px 10px;
 
+}
+
+.experience li{
+	line-height: 18px;
 }
 
 
